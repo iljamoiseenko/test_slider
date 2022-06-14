@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    
+    <span id="name"></span>
+    <span id="job"></span>
+
+    <div class="container">
+        <div class="desctop-slider-wrapper">
+            <h1 class="slide-title" id="slide-title-db"></h1>
+            <h4 class="slide-sub-title" id="slide-sub-title-db"></h4>
+            <div class="slide-names-block">
+                <span data-tab="1" id="first" class="nav-tab active"></span>
+                <span data-tab="2" id="second" class="nav-tab"></span>
+                <span data-tab="3" id="third" class="nav-tab"></span>
+            </div>
+            <div class="slider_wrapper">
+        
+                <div class="myslide tab-pane" data-tab-content="1">
+                    <div class="slider-items-block">
+                        <div class="slider-item-text">
+                            <h3 class="slider-item-title">Targeted Panels</h3>
+                            <p class="slider-item-description" id="desc-first"></p>
+                            <p class="slider-item-description" id="desc-first2"></p>
+                        </div>
+                        <div class="slider-item-img">
+                            <img src="./src/image/slide1.png" alt="slide">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="myslide tab-pane" data-tab-content="2">
+                    <div class="slider-items-block">
+                        <div class="slider-item-text">
+                            <h3 class="slider-item-title">Whole Exome Sequencing</h3>
+                            <p class="slider-item-description" id="desc-second"></p>
+                            <p class="slider-item-description" id="desc-second2"></p>
+                        </div>
+                        <div class="slider-item-img">
+                            <img src="./src/image/slide2.png" alt="slide">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="myslide tab-pane" data-tab-content="3">
+                    <div class="slider-items-block">
+                        <div class="slider-item-text">
+                            <h3 class="slider-item-title">lcWGS and Microarrays</h3>
+                            <p class="slider-item-description" id="desc-third"></p>
+                            <p class="slider-item-description" id="desc-third2"></p>
+                        </div>
+                        <div class="slider-item-img">
+                            <img src="./src/image/slide3.png" alt="slide">
+                        </div>
+                    </div>
+                </div>
+              
+              </div>
+        </div>
+        
+
+        
+
+        <div class="mobile-slider-block">
+            <h1 class="slide-title">Bringing the benefits of multiple assays into one</h1>
+            <h4 class="slide-sub-title">Helix’s Exome+® assay has been carefully optimized to provide the benefits of lcWGS, whole exome sequencing, microarrays, and targeted panels — all in one assay.</h4>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <h3 class="slider-item-title">Targeted Panels</h3>
+                        <div class="slider-item-img">
+                            <img src="./src/image/slide1.png" alt="slide">
+                        </div>
+                        
+                        <p class="slider-item-description">
+                            Panels are often used in clinical settings because they’re low cost and provide high quality coverage of specific, pre-defined genomic regions of interest. While useful in certain settings, such assays are limited by their narrow focus.
+                        </p>
+                        <p class="slider-item-description">
+                            With ≥ 99.5% call rate across ~600 genes relevant 
+                                to many disease states, the Exome+ assay enables you to run multiple panel-grade analyses with a single sample.
+                        </p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <h3 class="slider-item-title">Whole Exome Sequencing</h3>
+                        <div class="slider-item-img">
+                            <img src="./src/image/slide2.png" alt="slide">
+                        </div>
+                        
+                        <p class="slider-item-description">
+                            Panels are often used in clinical settings because they’re low cost and provide high quality coverage of specific, pre-defined genomic regions of interest. While useful in certain settings, such assays are limited by their narrow focus.
+                        </p>
+                        <p class="slider-item-description">
+                            With ≥ 99.5% call rate across ~600 genes relevant 
+                                to many disease states, the Exome+ assay enables you to run multiple panel-grade analyses with a single sample.
+                        </p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <h3 class="slider-item-title">lcWGS and Microarrays</h3>
+                        <div class="slider-item-img">
+                            <img src="./src/image/slide3.png" alt="slide">
+                        </div>
+                        <p class="slider-item-description">
+                            With ≥ 99.5% call rate across ~600 genes relevant 
+                                to many disease states, the Exome+ assay enables you to run multiple panel-grade analyses with a single sample.
+                        </p>
+                        <p class="slider-item-description">
+                            Panels are often used in clinical settings because they’re low cost and provide high quality coverage of specific, pre-defined genomic regions of interest. While useful in certain settings, such assays are limited by their narrow focus.
+                        </p>
+                        
+                        
+                    </div>
+                
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+         
+    </div>
+    
+
+    
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/index.js"></script>
+    
+
+</body>
+</html>

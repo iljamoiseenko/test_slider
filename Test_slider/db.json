@@ -1,0 +1,31 @@
+{
+  "posts": {
+      "postTitle": {
+        "title": "Bringing the benefits of multiple assays into one",
+        "description": "Helix’s Exome+® assay has been carefully optimized to provide the benefits of lcWGS, whole exome sequencing, microarrays, and targeted panels — all in one assay."
+
+      },
+      "post": {
+        "id": 1,
+        "title": "Targeted Panels",
+        "description": "Panels are often used in clinical settings because they’re low cost and provide high quality coverage of specific, pre-defined genomic regions of interest. While useful in certain settings, such assays are limited by their narrow focus.",
+        "description2": "With ≥ 99.5% call rate across ~600 genes relevant to many disease states, the Exome+ assay enables you to run multiple panel-grade analyses with a single sample."
+      },
+      "post2": {
+        "id": 2,
+        "title": "Whole Exome Sequencing",
+        "description": "Panels are often used in clinical settings because they’re low cost and provide high quality coverage of specific, pre-defined genomic regions of interest. While useful in certain settings, such assays are limited by their narrow focus.",
+        "description2": "With ≥ 99.5% call rate across ~600 genes relevant to many disease states, the Exome+ assay enables you to run multiple panel-grade analyses with a single sample."
+        
+      },
+      "post3": {
+        "id": 3,
+        "title": "lcWGS and Microarrays",
+        "description": "Panels are often used in clinical settings because they’re low cost and provide high quality coverage of specific, pre-defined genomic regions of interest. While useful in certain settings, such assays are limited by their narrow focus.",
+        "description2": "With ≥ 99.5% call rate across ~600 genes relevant to many disease states, the Exome+ assay enables you to run multiple panel-grade analyses with a single sample."
+
+      }    
+    }
+    
+    
+}
